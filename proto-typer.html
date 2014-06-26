@@ -1,0 +1,27 @@
+<html>
+  	<head></head>
+  	<title>proto-typing ballz deep</title>
+	<body>
+		<div id="game"></div>
+		<div id="debug">
+			<ul id="log">
+				<li>List of Keys: </li>
+			</ul>
+		</div>
+		<style>
+			.key-up {
+				opacity : 0.5;
+			}
+		</style>
+		<script type="text/javascript" src="src/lib/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="src/lib/underscore.js"></script>
+		<script type="text/javascript" src="src/lib/howler.js"></script>
+		<script type="text/javascript" src="src/unagi/structs/trie.js"></script>
+		<script type="text/javascript" src="src/unagi/engine/game.js"></script>
+		<script>
+			Game.init();
+			Game.testTrie();
+		</script>
+	</body>
+</html>
+
